@@ -1,0 +1,57 @@
+body {
+    font-family : serif; }
+h2 {
+    font-family : serif;
+    font-weight : bold;
+    font-style: italic;
+    font-size : 16px;}
+P {
+    font-weight: normal;
+    font-family : serif;
+    font-size : 14px;
+    color: black;
+    background-color: transparent;}
+b {
+    font-weight: normal;
+    color: black;
+    background-color: transparent;}
+a:visited {
+    font-weight : normal;
+    text-decoration : none;
+    background-color : transparent;
+    margin : 0px 0px 0px 0px;
+    padding : 0px 0px 0px 0px;
+    display: inline; }
+a:link {
+    font-weight : normal;
+    text-decoration : none;
+    margin : 0px 0px 0px 0px;
+    padding : 0px 0px 0px 0px;
+    display: inline; }
+a:hover {
+    color : #000000;
+    font-weight : normal;
+    text-decoration : underline;
+    background-color : yellow;
+    margin : 0px 0px 0px 0px;
+    padding : 0px 0px 0px 0px;
+    display: inline; }
+a:active {
+    color : #000000;
+    font-weight: normal;
+    background-color : transparent;
+    margin : 0px 0px 0px 0px;
+    padding : 0px 0px 0px 0px;
+    display: inline; }
+
+.column {
+    float: left;
+    width: 33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
