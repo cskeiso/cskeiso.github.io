@@ -1,33 +1,42 @@
 body {
-    font-family : serif; }
+    font-family : serif;
+    background : #F3F3F3;
+}
 h2 {
     font-family : serif;
     font-weight : bold;
     font-style: italic;
-    font-size : 16px;}
+    font-size : 16px;
+}
 P {
     font-weight: normal;
     font-family : serif;
     font-size : 14px;
     color: black;
-    background-color: transparent;}
+    background-color: transparent;
+}
 b {
     font-weight: normal;
     color: black;
-    background-color: transparent;}
+    background-color: transparent;
+}
 a:visited {
+    /* color : yellow;*/
     font-weight : normal;
     text-decoration : none;
     background-color : transparent;
     margin : 0px 0px 0px 0px;
     padding : 0px 0px 0px 0px;
-    display: inline; }
+    display: inline;
+}
 a:link {
+   /* color : yellow;*/
     font-weight : normal;
     text-decoration : none;
     margin : 0px 0px 0px 0px;
     padding : 0px 0px 0px 0px;
-    display: inline; }
+    display: inline;
+}
 a:hover {
     color : #000000;
     font-weight : normal;
@@ -35,14 +44,16 @@ a:hover {
     background-color : yellow;
     margin : 0px 0px 0px 0px;
     padding : 0px 0px 0px 0px;
-    display: inline; }
+    display: inline;
+}
 a:active {
     color : #000000;
     font-weight: normal;
     background-color : transparent;
     margin : 0px 0px 0px 0px;
     padding : 0px 0px 0px 0px;
-    display: inline; }
+    display: inline;
+}
 
 .column {
     float: left;
