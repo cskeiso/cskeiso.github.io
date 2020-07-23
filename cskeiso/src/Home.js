@@ -1,9 +1,8 @@
 import React from 'react';
 import './App.css';
 import ReactPlayer from 'react-player';
-import App from './App';
 import { A } from 'hookrouter';
-import NotFoundPage from './NotFoundPage';
+import Footer from './common/Footer';
 
 function Home() {
   return (
@@ -11,6 +10,7 @@ function Home() {
       <Above/>
       <Video/>
       <Below/>
+      <Footer/>
     </div>
   );
 }
