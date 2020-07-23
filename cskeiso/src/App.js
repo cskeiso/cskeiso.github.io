@@ -1,26 +1,75 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ReactPlayer from 'react-player';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Above/>
+      <Video/>
+      <Below/>
     </div>
   );
+}
+
+function Above() {
+  return (
+    <div class="home-above">
+      <x>
+        Carmen-Sibha Keiso
+      </x>
+      <a 
+        class = "right"
+        target = "_blank" 
+        rel = "noopener noreferrer"
+        href = "mailto:carmen.s.keiso@gmail.com"
+      >
+        carmen.s.keiso@gmail.com
+      </a>
+    </div>
+  )
+
+}
+
+function Below() {
+  return (
+    <table className = "home-table">
+      <tr>
+        <td>
+          <a href="./work/index.html"> WORK</a>
+        </td>
+        <td>
+          <a href="./text/index.html"> TEXT</a>
+        </td>
+        <td>
+          <a href="./audio/index.html"> AUDIO</a>
+        </td>
+        <td>
+          <a target="_blank" rel="noopener noreferrer" href="./CARMENKEISO_CV_03.21.2020.pdf"> CV</a>
+        </td>
+      <a class="right" target="_blank" rel="noopener noreferrer" href="./readtheroom"> READTHEROOM</a>
+      </tr>
+    </table>
+  )
+
+}
+
+function Video() {
+  var url = "videos/movie.mp4";
+  // having the 'light' property set seems to disable autoplay
+  //light = 'sibhplacholder.JPG'
+  return (
+    <div className="-">
+      <ReactPlayer
+        url = {url} 
+        width = "100%"
+        height = "auto"
+        playing
+        muted
+        loop
+      />
+    </div>
+  ) 
 }
 
 export default App;
