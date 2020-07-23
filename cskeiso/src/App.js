@@ -33,23 +33,25 @@ function Above() {
 
 function Below() {
   return (
-    <table className = "home-table">
-      <tr>
-        <td>
-          <a href="./work/index.html"> WORK</a>
-        </td>
-        <td>
-          <a href="./text/index.html"> TEXT</a>
-        </td>
-        <td>
-          <a href="./audio/index.html"> AUDIO</a>
-        </td>
-        <td>
-          <a target="_blank" rel="noopener noreferrer" href="./CARMENKEISO_CV_03.21.2020.pdf"> CV</a>
-        </td>
+    <div>
+      <table className = "home-table">
+        <tr>
+          <td>
+            <a href="./work/index.html"> WORK</a>
+          </td>
+          <td>
+            <a href="./text/index.html"> TEXT</a>
+          </td>
+          <td>
+            <a href="./audio/index.html"> AUDIO</a>
+          </td>
+          <td>
+            <a target="_blank" rel="noopener noreferrer" href="./CARMENKEISO_CV_03.21.2020.pdf"> CV</a>
+          </td>
+        </tr>
+      </table>
       <a class="right" target="_blank" rel="noopener noreferrer" href="./readtheroom"> READTHEROOM</a>
-      </tr>
-    </table>
+    </div>
   )
 
 }
@@ -59,16 +61,14 @@ function Video() {
   // having the 'light' property set seems to disable autoplay
   //light = 'sibhplacholder.JPG'
   return (
-    <div className="-">
-      <ReactPlayer
-        url = {url} 
-        width = "100%"
-        height = "auto"
-        playing
-        muted
-        loop
-      />
-    </div>
+    <ReactPlayer
+      url = {url} 
+      width = "100%"
+      height = "auto"
+      playing
+      muted
+      loop
+    />
   ) 
 }
 

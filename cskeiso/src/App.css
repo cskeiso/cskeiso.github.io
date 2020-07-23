@@ -3,16 +3,13 @@
 }
 
 .home-above {
-  padding-top: 42px;
-}
-
-.home-video {
-  width: 100%;
-  height: auto;
+  padding-top: 5%;
 }
 
 .home-table {
-  width: 100%;
+    float: left;
+  width: 50%;
+
 }
 
 body {
