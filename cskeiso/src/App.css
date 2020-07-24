@@ -8,7 +8,7 @@
 
 .home-table {
     float: left;
-  width: 50%;
+    width: 50%;
 
 }
 
@@ -20,16 +20,17 @@
 .footer {
     position: fixed;
     bottom: 0;
-    right: 2em;
-    font-size: 0.8em;
+    padding: 0 0 1em 1em;
+    right: 1em;
+    font-size: 0.6em;
 }
 
 .row-data {
-    padding-left: 2em;
+    padding-left: 5%;
 }
 
 .two-columns {
-    padding-left: 2em;
+    padding-left: 5%;
 }
 
 body {
@@ -38,19 +39,20 @@ body {
     max-width: 220mm;
     margin-left:auto; 
     margin-right:auto; 
-    padding: 0% 2em 0%
+    padding: 0% 5% 0%;
+    font-size: 100%;
 }
 
 h2 {
     font-family : serif;
     font-weight : bold;
     font-style: italic;
-    font-size : 16px;
+    font-size : 1em;
 }
 p {
     font-weight: normal;
     font-family : serif;
-    font-size : 14px;
+    font-size : 1em;
     color: black;
     background-color: transparent;
 }

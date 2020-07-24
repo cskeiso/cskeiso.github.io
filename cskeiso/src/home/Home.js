@@ -1,8 +1,10 @@
 import React from 'react';
-import './App.css';
 import ReactPlayer from 'react-player';
 import { A } from 'hookrouter';
-import Footer from './common/Footer';
+import '../App.css';
+import Footer from '../common/Footer';
+import logoVideo from './movie.mp4';
+import CV from './CARMENKEISO_CV_03_21_2020.pdf';
 
 function Home() {
   return (
@@ -41,16 +43,16 @@ function Below() {
         <table className = "home-table">
           <tr>
             <td>
-              <A href="./work/index.html"> WORK</A>
+              <A href="/work"> WORK</A>
             </td>
             <td>
               <A href="/text">TEXT</A>
             </td>
             <td>
-              <A href="./audio/index.html"> AUDIO</A>
+              <A href="/audio"> AUDIO</A>
             </td>
             <td>
-              <a target="_blank" rel="noopener noreferrer" href="./CARMENKEISO_CV_03.21.2020.pdf"> CV</a>
+              <a target="_blank" rel="noopener noreferrer" href={CV}> CV</a>
             </td>
           </tr>
         </table>
@@ -62,7 +64,7 @@ function Below() {
 }
 
 function Video() {
-  var url = "videos/movie.mp4";
+  var url = logoVideo;
   // having the 'light' property set seems to disable autoplay
   //light = 'sibhplacholder.JPG'
   return (
