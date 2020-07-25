@@ -19,12 +19,10 @@ function Home() {
 
 function Above() {
   return (
-    <div class="home-above">
-      <x>
-        Carmen-Sibha Keiso
-      </x>
+    <div className="home-above">
+      <span className="home-title">&nbsp;Carmen-Sibha Keiso&nbsp;</span>
       <a 
-        class = "right"
+        className = "right home-email"
         target = "_blank" 
         rel = "noopener noreferrer"
         href = "mailto:carmen.s.keiso@gmail.com"
@@ -40,7 +38,7 @@ function Below() {
   return (
     <div>
       <div>
-        <table className = "home-table">
+        <table className = "home-table home-below">
           <tr>
             <td>
               <A href="/work"> WORK</A>
@@ -56,7 +54,7 @@ function Below() {
             </td>
           </tr>
         </table>
-        <A class="right" href="./readtheroom"> READTHEROOM</A>
+        <A className="home-below right" href="./readtheroom"> READTHEROOM</A>
       </div>
     </div>
   )
