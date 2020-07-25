@@ -2,6 +2,10 @@
   float: right;
 }
 
+.rotate90 {
+    transform:rotate(0deg);
+}
+
 .home-above {
     padding-top: 3em;
     padding-bottom: 0.75em;
