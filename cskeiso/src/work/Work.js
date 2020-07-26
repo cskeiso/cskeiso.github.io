@@ -51,10 +51,10 @@ function Rows1() {
         <a href="/work/iPhone-Notes">iPhone Notes</a>
         <br/>
         <br/>
-        <a href="/work/Frames">Frames</a>
-        <br/>
-        <br/>
         <a href="/work/My-Beige-Girl">My Beige Girl</a>
+        <br/>
+        <br/>
+        <a href="/work/Bang-Bang-Youre-Mine">Bang Bang You're Mine</a>
         <br/>
         <br/>
         </i>
@@ -64,21 +64,20 @@ function Rows1() {
 }
 
 function Rows2() {
-  // This Rows2 has 2 columns
   return (
     <div className="row-data">
       <p>
-				<a href="/work/something-drawings-3-readtheroom">
+				<a href="/work/Something-Drawings-3">
 						<i>SOmething Drawings3,</i>  
 						<span className="right">READTHEROOM</span>
 				</a>
         <br/><br/>
-        <a href="/work/something-drawings-2-readtheroom">
+        <a href="/work/Something-Drawings-2">
           <i>SOmething Drawings2,</i> 
           <span className="right">READTHEROOM</span>
         </a>
         <br/><br/>
-        <a href="/work/something-drawings-1-readtheroom">
+        <a href="/work/Something-Drawings-1">
           <i>SOmething Drawings1,</i>  
           <span className="right">READTHEROOM</span>
         </a>
@@ -95,7 +94,7 @@ function Rows2() {
         <br/><br/>
         <a href="/work/The-Beige-Show">
           The Beige Show,
-          <span className="right">VCA Studen Gallery</span>
+          <span className="right">VCA Student Gallery</span>
         </a>
         <br/><br/>
       </p>

@@ -8,6 +8,12 @@ import FiveWays from './work/5_WAYS/FiveWays';
 import MeowTV from './work/meowTV/MeowTV';
 import LoveFascism from './work/Love-and-Fascism-in-the-21st-Century/LoveFascism';
 import ActFour from './work/Act-4/ActFour';
+import Buster from './work/Buster/Buster';
+import IPhoneNotes from './work/iPhone-Notes/IPhoneNotes';
+import Beige from './work/Beige/Beige';
+import BangBang from './work/Bang-Bang-Youre-Mine/BangBang';
+import SomethingDrawings3 from './work/something-drawings-3/SomethingDrawings3';
+import SomethingDrawings2 from './work/something-drawings-2/SomethingDrawings2';
 import Text from './text/Text';
 import Audio from './audio/Audio';
 const routes = {
@@ -21,6 +27,12 @@ const routes = {
   '/work/meowTV': () => <MeowTV/>,
   '/work/Love-Fascism': () => <LoveFascism/>,
   '/work/Act-4': () => <ActFour/>,
+  '/work/Buster': () => <Buster/>,
+  '/work/iPhone-Notes': () => <IPhoneNotes/>,
+  '/work/My-Beige-Girl': () => <Beige/>,
+  '/work/Bang-Bang-Youre-Mine': () => <BangBang/>,
+  '/work/Something-Drawings-3': () => <SomethingDrawings3/>,
+  '/work/Something-Drawings-2': () => <SomethingDrawings2/>,
   '/audio': () => <Audio />
 };
 export default routes;
