@@ -5,6 +5,7 @@ import CastingCouch from './work/Casting_Couch/CastingCouch';
 import Muse from './work/Muse/Muse';
 import LongLegs from './work/Yea-Shes-Got-Long-Legs-and-Huge-Tits/LongLegs'
 import FiveWays from './work/5_WAYS/FiveWays'
+import MeowTV from './work/meowTV/MeowTV'
 import Text from './text/Text';
 import Audio from './audio/Audio';
 const routes = {
@@ -15,6 +16,7 @@ const routes = {
   '/work/Muse': () => <Muse />,
   '/work/Yea-Shes-Got-Long-Legs-and-Huge': () => <LongLegs/>,
   '/work/5-Ways': () => <FiveWays/>,
+  '/work/meowTV': () => <MeowTV/>,
   '/audio': () => <Audio />
 };
 export default routes;
