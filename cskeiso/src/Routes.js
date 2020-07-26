@@ -7,6 +7,7 @@ import LongLegs from './work/Yea-Shes-Got-Long-Legs-and-Huge-Tits/LongLegs';
 import FiveWays from './work/5_WAYS/FiveWays';
 import MeowTV from './work/meowTV/MeowTV';
 import LoveFascism from './work/Love-and-Fascism-in-the-21st-Century/LoveFascism';
+import ActFour from './work/Act-4/ActFour';
 import Text from './text/Text';
 import Audio from './audio/Audio';
 const routes = {
@@ -19,6 +20,7 @@ const routes = {
   '/work/5-Ways': () => <FiveWays/>,
   '/work/meowTV': () => <MeowTV/>,
   '/work/Love-Fascism': () => <LoveFascism/>,
+  '/work/Act-4': () => <ActFour/>,
   '/audio': () => <Audio />
 };
 export default routes;
