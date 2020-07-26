@@ -15,7 +15,7 @@ function MeowTV() {
                 <div className="para">
                     Meow is an artist run initiative co-directed by: Calum Lockey, Hana Earles, & Brennan Olver. Meow presented the work of four Melbourne based artists over the summer of 2018-2019. MeowTV, directed and filmed by Carmen-Sibha Keiso was aired on Channel31 from May-July of 2019.
                     <br/>
-                    <a target="_blank" href="https://memoreview.net/blog/lyon-housemuseum-galleries-meow-by-paris-lettau">Paris Lettau's review for Memo</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://memoreview.net/blog/lyon-housemuseum-galleries-meow-by-paris-lettau">Paris Lettau's review for Memo</a>
                     <br/>
                     <Player url={url1}/>
                     <br/>
