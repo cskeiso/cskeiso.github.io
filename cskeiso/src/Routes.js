@@ -18,6 +18,7 @@ import SomethingDrawings1 from './work/something-drawings-1/SomethingDrawings1';
 import SomethingFractions from './work/something-fractions/SomethingFractions';
 import Text from './text/Text';
 import Audio from './audio/Audio';
+import ReadTheRoom from './READTHEROOM/ReadTheRoom';
 const routes = {
   '/': () => <Home />,
   '/text': () => <Text />,
@@ -37,6 +38,7 @@ const routes = {
   '/work/Something-Drawings-2': () => <SomethingDrawings2/>,
   '/work/Something-Drawings-1': () => <SomethingDrawings1/>,
   '/work/Something-Fractions': () => <SomethingFractions/>,
-  '/audio': () => <Audio />
+  '/audio': () => <Audio />,
+  '/READTHEROOM': () => <ReadTheRoom/>
 };
 export default routes;

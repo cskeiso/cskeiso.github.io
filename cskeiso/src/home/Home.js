@@ -55,7 +55,7 @@ function Below() {
             </td>
           </tr>
         </table>
-        <Link className="home-below right" href="./readtheroom"> READTHEROOM</Link>
+        <Link className="home-below right" href="./READTHEROOM"> READTHEROOM</Link>
       </div>
     </div>
   )
