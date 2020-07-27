@@ -8,21 +8,22 @@
 
 .home-above {
     padding-top: 3em;
-    padding-bottom: 0.75em;
+    padding-bottom: 0.6em;
 }
 
 .home-title {
     font-weight: bold;
     font-style: italic;
     color: blue;
-    font-size: 1.3em;
+    font-size: clamp(16px, 4vw, 32px);
     background-color: #aaaaaa;
 }
 
 .home-email {
     font-weight: bold;
     font-style: italic;
-    font-size: 1.05em;
+    font-size: 3.2vw;
+    font-size: clamp(12px, 3vw, 24px);
     color: blue;
 }  
 
@@ -32,7 +33,9 @@
 }
 
 .home-below {
+    padding-top: 0.2em;
     font-weight: bold;
+    font-size: clamp(12px, 3vw, 24px);
 }
 
 .video-placeholder {
@@ -92,7 +95,7 @@ h2 {
     font-family : serif;
     font-weight : bold;
     font-style: italic;
-    font-size : 1em;
+    font-size : clamp(12px, 3vw, 20px);
 }
 .para {
     font-weight: normal;
@@ -101,6 +104,11 @@ h2 {
     color: black;
     background-color: transparent;
 }
+
+p {
+    font-size: clamp(12px, 2vw, 18px);
+}
+
 b {
     font-weight: normal;
     color: black;

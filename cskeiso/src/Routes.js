@@ -15,6 +15,7 @@ import BangBang from './work/Bang-Bang-Youre-Mine/BangBang';
 import SomethingDrawings3 from './work/something-drawings-3/SomethingDrawings3';
 import SomethingDrawings2 from './work/something-drawings-2/SomethingDrawings2';
 import SomethingDrawings1 from './work/something-drawings-1/SomethingDrawings1';
+import SomethingFractions from './work/something-fractions/SomethingFractions';
 import Text from './text/Text';
 import Audio from './audio/Audio';
 const routes = {
@@ -35,6 +36,7 @@ const routes = {
   '/work/Something-Drawings-3': () => <SomethingDrawings3/>,
   '/work/Something-Drawings-2': () => <SomethingDrawings2/>,
   '/work/Something-Drawings-1': () => <SomethingDrawings1/>,
+  '/work/Something-Fractions': () => <SomethingFractions/>,
   '/audio': () => <Audio />
 };
 export default routes;
