@@ -87,7 +87,7 @@ function Rows2() {
           <span className="right">Second Space Studios</span>
         </a>
         <br/><br/>
-        <a href="/work/Something-Fractions/">
+        <a href="/work/Something-Fractions">
           Something Fractions, 
           <span className="right">Suicidal Oil Piglet</span>
         </a>

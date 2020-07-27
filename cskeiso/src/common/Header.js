@@ -6,7 +6,7 @@ import withBorder from './with-border.jpg';
 function Header() {
   return (
     <div className="header">
-      <A href="/"><img alt="logo" src={withBorder} width="260"/></A>
+      <A href="/"><img alt="logo" src={withBorder} width="inherit"/></A>
     </div>
   );
 }

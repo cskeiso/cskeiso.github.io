@@ -23,7 +23,7 @@ function Rows1() {
   return ( 
     <div className="row-data">
         <p>
-            <a target="_blank" rel="noopener noreferrer" href="/x">ie - dw reading series one</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/joshua-edward-330824759/iedwreading-series-one-new-york">ie - dw reading series one</a>
             <br/>
             IchikawaEdward
             <br/><br/>
@@ -33,7 +33,7 @@ function Rows1() {
             <br/><br/>
             <a target="_blank" rel="noopener noreferrer" href="/x">On Love & Fascism: The Cultivated Self</a>
             <br/>
-            Writing & Concept, SIGNAL Artspace
+            Writing &amp; Concept, SIGNAL Artspace
             <br/><br/>
             <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/line-podcast-46683675/4-carmen-sibha-keiso-ichikawaedward-bridget-chappell">Line 4 Podcast </a>
             <br/>
@@ -45,23 +45,23 @@ function Rows1() {
 
 function Rows2() {
     return (
-        <div className="row-data">
+      <div className="row-data">
         <p>
-			<a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/ellablou/transient-landscapes-ep-5-skylab-radio-060919-with-carmen-k">Cold Winter Jazz mix</a>
-			<br/>
-			<br/>
-			<a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/loop-radio/lr-001-carmenk">Hot Summer Jazz mix</a>
-			<br/>
-			<br/>
-			<a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/carmensk/mild-autumn-jazz-20-5-18">Mild Autumn Jazz mix</a>
-			<br/>
-			<br/>
-			<a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/baba_sib/live-442018">Live, Yarra Hotel</a>
-			<br/>
-			<br/>
-			<a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/baba_sib/live-longplay">Live, Long Play</a>
-      </p>
-    </div>
+        <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/ellablou/transient-landscapes-ep-5-skylab-radio-060919-with-carmen-k">Cold Winter Jazz mix</a>
+        <br/>
+        <br/>
+        <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/loop-radio/lr-001-carmenk">Hot Summer Jazz mix</a>
+        <br/>
+        <br/>
+        <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/carmensk/mild-autumn-jazz-20-5-18">Mild Autumn Jazz mix</a>
+        <br/>
+        <br/>
+        <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/baba_sib/live-442018">Live, Yarra Hotel</a>
+        <br/>
+        <br/>
+        <a target="_blank" rel="noopener noreferrer" href="https://soundcloud.com/baba_sib/live-longplay">Live, Long Play</a>
+        </p>
+      </div>
   )
 }
 

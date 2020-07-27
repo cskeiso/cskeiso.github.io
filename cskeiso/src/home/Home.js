@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
-import { A } from 'hookrouter';
+import { Link } from 'raviger';
 import '../App.css';
 import Footer from '../common/Footer';
 import logoVideo from './movie.mp4';
 import CV from './CARMENKEISO_CV_03_21_2020.pdf';
+import placeholder from './sibhplaceholder.JPG';
 
 function Home() {
   return (
@@ -41,20 +42,20 @@ function Below() {
         <table className = "home-table home-below">
           <tr>
             <td>
-              <A href="/work"> WORK</A>
+              <Link href="/work"> WORK</Link>
             </td>
             <td>
-              <A href="/text">TEXT</A>
+              <Link href="/text">TEXT</Link>
             </td>
             <td>
-              <A href="/audio"> AUDIO</A>
+              <Link href="/audio"> AUDIO</Link>
             </td>
             <td>
               <a target="_blank" rel="noopener noreferrer" href={CV}> CV</a>
             </td>
           </tr>
         </table>
-        <A className="home-below right" href="./readtheroom"> READTHEROOM</A>
+        <Link className="home-below right" href="./READTHEROOM"> READTHEROOM</Link>
       </div>
     </div>
   )
@@ -64,16 +65,20 @@ function Below() {
 function Video() {
   var url = logoVideo;
   // having the 'light' property set seems to disable autoplay
-  //light = 'sibhplacholder.JPG'
+  //light = {placeholder} 
   return (
-    <ReactPlayer
-      url = {url} 
-      width = "100%"
-      height = "auto"
-      playing
-      muted
-      loop
-    />
+      <div className="  player">
+          <img className="video-placeholder" alt="" src={placeholder} />
+          <ReactPlayer
+              className='react-player'
+              url = {url} 
+              width = "100%"
+              height = "auto"
+              playing
+              muted
+              loop
+          />
+      </div>
   ) 
 }
 
