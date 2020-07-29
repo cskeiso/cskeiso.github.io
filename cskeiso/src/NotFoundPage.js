@@ -7,6 +7,9 @@ function NotFoundPage() {
     <div>
       <Header />
       <h1>404</h1>
+      <p>
+        Oopsie! Content is still being added...
+      </p>
       <Footer />
     </div>
   );

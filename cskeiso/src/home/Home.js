@@ -4,7 +4,7 @@ import { Link } from 'raviger';
 import '../App.css';
 import Footer from '../common/Footer';
 import logoVideo from './movie.mp4';
-import CV from './CARMENKEISO_CV_03_21_2020.pdf';
+import CV from './CARMENKEISO_CV_28_07_2020.pdf';
 import placeholder from './sibhplaceholder.JPG';
 
 function Home() {
@@ -39,22 +39,18 @@ function Below() {
   return (
     <div>
       <div>
-        <table className = "home-table home-below">
-          <tr>
-            <td>
+        <div className = "home-table home-below">
+          <span>
               <Link href="/work"> WORK</Link>
-            </td>
-            <td>
+          </span>
+          <span>
               <Link href="/text">TEXT</Link>
-            </td>
-            <td>
+          </span>
+          <span>
               <Link href="/audio"> AUDIO</Link>
-            </td>
-            <td>
+          </span>
               <a target="_blank" rel="noopener noreferrer" href={CV}> CV</a>
-            </td>
-          </tr>
-        </table>
+        </div>
         <Link className="home-below right" href="./READTHEROOM"> READTHEROOM</Link>
       </div>
     </div>

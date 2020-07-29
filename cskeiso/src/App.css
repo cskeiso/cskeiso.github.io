@@ -15,7 +15,7 @@
     font-weight: bold;
     font-style: italic;
     color: blue;
-    font-size: clamp(16px, 4vw, 32px);
+    font-size: clamp(16px, 3vw, 28px);
     background-color: #aaaaaa;
 }
 
@@ -23,19 +23,26 @@
     font-weight: bold;
     font-style: italic;
     font-size: 3.2vw;
-    font-size: clamp(12px, 3vw, 24px);
+    font-size: clamp(12px, 2vw, 20px);
     color: blue;
 }  
 
 .home-table {
     float: left;
-    width: 50%;
+    display: table;
+    width: 60%;
+    table-layout: fixed;
+}
+
+.home-table span {
+    display: table-cell;
+    text-align: left;
 }
 
 .home-below {
     padding-top: 0.2em;
     font-weight: bold;
-    font-size: clamp(12px, 3vw, 24px);
+    font-size: clamp(12px, 2vw, 20px);
 }
 
 .video-placeholder {
@@ -58,7 +65,7 @@
     bottom: 0;
     padding: 0 0 1em 1em;
     right: 1em;
-    font-size: 0.6em;
+    font-size: 0.8em;
 }
 
 .row-data {
@@ -122,6 +129,11 @@ Link, a {
 
 Link:visited, a:visited {
     color: blue;
+}
+
+Link:hover, a:hover {
+    color: yellow;
+    font-style: italic;
 }
 /*
 a:link {
