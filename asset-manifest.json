@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9aa89beb.chunk.css",
+    "main.js": "/static/js/main.a85afce8.chunk.js",
+    "main.js.map": "/static/js/main.a85afce8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.88d97200.js",
+    "runtime-main.js.map": "/static/js/runtime-main.88d97200.js.map",
+    "static/js/2.deeb3b1b.chunk.js": "/static/js/2.deeb3b1b.chunk.js",
+    "static/js/2.deeb3b1b.chunk.js.map": "/static/js/2.deeb3b1b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d0a4119416a703fa3405dbede087eb8c.js": "/precache-manifest.d0a4119416a703fa3405dbede087eb8c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.9aa89beb.chunk.css.map": "/static/css/main.9aa89beb.chunk.css.map",
+    "static/js/2.deeb3b1b.chunk.js.LICENSE.txt": "/static/js/2.deeb3b1b.chunk.js.LICENSE.txt",
+    "static/media/CARMENKEISO_CV_03_21_2020.pdf": "/static/media/CARMENKEISO_CV_03_21_2020.b6654993.pdf",
+    "static/media/art-almanac-hatched-pica.png": "/static/media/art-almanac-hatched-pica.6ad9f202.png",
+    "static/media/movie.mp4": "/static/media/movie.bde80c6c.mp4",
+    "static/media/with-border.jpg": "/static/media/with-border.39091cf2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88d97200.js",
+    "static/js/2.deeb3b1b.chunk.js",
+    "static/css/main.9aa89beb.chunk.css",
+    "static/js/main.a85afce8.chunk.js"
+  ]
+}
