@@ -5,7 +5,6 @@ import Footer from '../../common/Footer';
 import img1 from "./somethingfractions.jpeg"
 import img2 from "./somethingfractions1.jpeg"
 import img3 from "./SF1.jpg"
-import img4 from "./SF2.png"
 
 function SomethingFractions() {
     return (
@@ -27,7 +26,6 @@ function SomethingFractions() {
             <img alt=""  src={img1}/>
             <img alt=""  src={img2}/>
             <img alt=""  src={img3}/>
-            <img alt=""  src={img4}/>
             <Footer />
         </div>
     );

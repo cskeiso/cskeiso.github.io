@@ -2,11 +2,13 @@ import React from 'react';
 import '../../App.css';
 import Header from '../../common/Header';
 import Footer from '../../common/Footer';
+import Player from '../../common/Player';
 import img1 from './WAYS1.jpg';
 import img2 from './WAYS2.jpg';
 import img3 from './WAYS3.jpg';
 
 function FiveWays() {
+    var url = "https://vimeo.com/440788546";
     return (
         <div>
             <Header />
@@ -19,6 +21,8 @@ function FiveWays() {
                     <a target="_blank" rel="noopener noreferrer" href="https://firstcommissions.com.au/titanic/carmen-sibha-keiso#response">firstcommissions.com.au</a>
                     &nbsp;online gallery, where the video-document and transcript are available.
                 </p>
+                <Player url={url} />
+                <br/>
                 <img alt="" src={img1}/>
                 <img alt="" src={img2}/>
                 <img alt="" src={img3}/>

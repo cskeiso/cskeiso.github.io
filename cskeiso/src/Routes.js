@@ -8,6 +8,7 @@ import FiveWays from './work/5_WAYS/FiveWays';
 import MeowTV from './work/meowTV/MeowTV';
 import LoveFascism from './work/Love-and-Fascism-in-the-21st-Century/LoveFascism';
 import ActFour from './work/Act-4/ActFour';
+import SexBrief from './work/Sex-Brief/SexBrief';
 import Buster from './work/Buster/Buster';
 import IPhoneNotes from './work/iPhone-Notes/IPhoneNotes';
 import Beige from './work/Beige/Beige';
@@ -30,6 +31,7 @@ const routes = {
   '/work/meowTV': () => <MeowTV/>,
   '/work/Love-Fascism': () => <LoveFascism/>,
   '/work/Act-4': () => <ActFour/>,
+  '/work/Sex-Brief': () => <SexBrief/>,
   '/work/Buster': () => <Buster/>,
   '/work/iPhone-Notes': () => <IPhoneNotes/>,
   '/work/My-Beige-Girl': () => <Beige/>,
