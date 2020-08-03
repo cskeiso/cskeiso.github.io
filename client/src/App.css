@@ -44,12 +44,17 @@
     font-size: clamp(12px, 2vw, 20px);
 }
 
-.video-placeholder {
-    position: absolute; 
-    top: 0; 
-    left: -1px; 
-    width: 100%;
-    height: 100%;
+.fallback-div {
+    height: calc(90vw/16*9);
+}
+
+.center-parent {
+    display: grid;
+    place-items: center;
+}
+
+.center-child {
+    text-align: center;
 }
 
 .header {
@@ -93,7 +98,7 @@ body {
     max-width: 220mm;
     margin-left:auto; 
     margin-right:auto; 
-    padding: 0% 5% 0%;
+    padding: 0% 5%;
     font-size: 100%;
 }
 

@@ -7,12 +7,15 @@ const ReactPlayer = React.lazy(() =>
 import('react-player'));
 
 function Player(url) {
+    // after some testing it seems like videos only take marginally longer 
+    // to load than the placeholder thumbnails or even a spinner from font awesome 
+    // so, won't add it unnecessarily 
+    //<img className="placeholder" alt="thumbnail" src={getThumbnail(url)} />
+
     var fallback_div = 
-        <div className="placeholder-container">
-            <img className="placeholder" alt="thumbnail" src={getThumbnail(url)} />
+        <div className=" fallback-div center-parent">
+            <div className="center-child">Loading...</div>
         </div>;
-
-
     return (
         <div className="player">
             <Suspense fallback={fallback_div}>
@@ -24,7 +27,8 @@ function Player(url) {
                     config={{
                         vimeo: {
                             playerOptions: {
-                                title: 1
+                                title: 1,
+                                controls: 1
                             }
                         },
                         file: {
@@ -43,6 +47,9 @@ function Player(url) {
     ) 
 }
 
+//code for getting a thumbnail of a video
+//but it never has time to show anyway 
+/*
 function getThumbnail(url) {
     if(String(url).includes("youtube")) {
         var id = getYoutubeID(url);
@@ -55,7 +62,7 @@ function getThumbnail(url) {
         return {homePlaceholder};
     }
 }
-
+*/
 function getYoutubeID(url) {
     return(url
         .match(

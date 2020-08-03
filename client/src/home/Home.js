@@ -1,12 +1,14 @@
 import React from 'react';
+/*
 import ReactPlayer from 'react-player';
+import placeholder from './sibhplaceholder.JPG';
+*/
 import { Link } from 'raviger';
 import '../App.css';
 import Footer from '../common/Footer';
 import Player from '../common/Player'
 import logoVideo from './movie.mp4';
 import CV from './CARMENKEISO_CV_28_07_2020.pdf';
-import placeholder from './sibhplaceholder.JPG';
 
 function Home() {
   return (
@@ -59,6 +61,7 @@ function Below() {
 
 }
 
+/*
 function Video() {
   var url = logoVideo;
   // having the 'light' property set seems to disable autoplay
@@ -78,5 +81,6 @@ function Video() {
       </div>
   ) 
 }
+*/
 
 export default Home;
