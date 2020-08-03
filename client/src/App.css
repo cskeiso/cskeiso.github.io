@@ -1,0 +1,175 @@
+.right {
+  float: right;
+}
+
+.rotate90 {
+    transform:rotate(0deg);
+}
+
+.home-above {
+    padding-top: 3em;
+    padding-bottom: 0.6em;
+}
+
+.home-title {
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+    font-size: clamp(16px, 3vw, 28px);
+    background-color: #aaaaaa;
+}
+
+.home-email {
+    font-weight: bold;
+    font-style: italic;
+    font-size: clamp(12px, 2vw, 20px);
+    color: blue;
+}  
+
+.home-table {
+    float: left;
+    display: table;
+    width: 60%;
+    table-layout: fixed;
+}
+
+.home-table span {
+    display: table-cell;
+    text-align: left;
+}
+
+.home-below {
+    padding-top: 0.2em;
+    font-weight: bold;
+    font-size: clamp(12px, 2vw, 20px);
+}
+
+.video-placeholder {
+    position: absolute; 
+    top: 0; 
+    left: -1px; 
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 260px;
+    height: auto;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    padding: 0 0 1em 1em;
+    right: 1em;
+    font-size: 0.8em;
+}
+
+.row-data {
+    padding-left: 5%;
+}
+
+.two-columns {
+    padding-left: 5%;
+}
+
+.player {
+    padding-bottom: 56.25%;
+    position: relative;
+}
+.react-player {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family : serif;
+    background : #D9D9D9;
+    max-width: 220mm;
+    margin-left:auto; 
+    margin-right:auto; 
+    padding: 0% 5% 0%;
+    font-size: 100%;
+}
+
+h2 {
+    font-family : serif;
+    font-weight : bold;
+    font-style: italic;
+    font-size : clamp(12px, 3vw, 20px);
+}
+.para {
+    font-weight: normal;
+    font-family : serif;
+    font-size : 1em;
+    color: black;
+    background-color: transparent;
+}
+
+p {
+    font-size: clamp(12px, 2vw, 18px);
+}
+
+b {
+    font-weight: normal;
+    color: black;
+    background-color: transparent;
+}
+
+Link, a {
+    text-decoration: inherit;
+    font-size: inherit;
+}
+
+Link:visited, a:visited {
+    color: blue;
+}
+
+Link:hover, a:hover {
+    color: yellow;
+    font-style: italic;
+}
+/*
+a:link {
+}
+a:hover {
+}
+a:active {
+}
+*/
+
+img {
+    max-width: 100%;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.videoInsert {
+    width: 100%; 
+    height: auto;
+}
+
+.with-tab {
+    padding-left: 5mm;
+}
+
+.spreadLinkContainer {
+    display: flex;
+    min-width: 100%;
+}
